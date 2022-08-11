@@ -1,4 +1,5 @@
 require('./app')
-let port = process.env.PORT || 8081
-.listen(port, () => {
+
+.listen(process.env.PORT || 8081, () => {
+    console.log("servidor escuchando en el puerto 3001")
 })
