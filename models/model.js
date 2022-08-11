@@ -1,6 +1,6 @@
 'use strict'
 
-let locations =  requires('./infolocations')
+let locations =  require('./infolocation.json')
 
 module.exports = {
   listlocations: function () {
